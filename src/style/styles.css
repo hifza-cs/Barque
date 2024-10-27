@@ -1,0 +1,43 @@
+.carousel-caption h1 {
+    font-size: 3rem; /* Adjust size as needed */
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: white; /* Button background color */
+    color: black; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #070707; /* Hover color */
+    color: white; /* Text color on hover */
+}
+/* Hover effect for images */
+.img-hover {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.img-hover:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Hover effect for buttons */
+.btn-hover {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-hover:hover {
+    background-color: #000; /* Change the background color */
+    color: #fff; /* Change the text color */
+}
+
+.carousel-caption {
+    height: 100%;
+    color: #fff;
+}
+

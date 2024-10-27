@@ -1,0 +1,58 @@
+.service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.service-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333; /* Dark color for the heading */
+    text-align: center;
+    font-weight: bold; /* Emphasize the heading */
+}
+
+.service-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    max-width: 1200px; /* Max width for better readability */
+}
+
+.service-card {
+    background-color: white; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin: 20px; /* Space between cards */
+    padding: 20px; /* Internal padding for the card */
+    width: 300px; /* Fixed width for cards */
+    text-align: center; /* Center text inside cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.service-image {
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+.service-title {
+    font-size: 1.5rem; /* Title font size */
+    margin-bottom: 10px; /* Space below title */
+    color: #333; /* Dark color for title */
+    font-weight: bold; /* Emphasize the title */
+}
+
+.service-description {
+    font-size: 1rem; /* Description font size */
+    color: #555; /* Slightly lighter color for description */
+    line-height: 1.5; /* Improved readability */
+}

@@ -1,0 +1,85 @@
+.news-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter-header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.newsletter-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter-input input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter-input button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex-basis: 22%;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+}
+
+.feature a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.icon {
+    font-size: 30px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.priority:before {
+    content: '⏱️';
+}
+
+.custom-size:before {
+    content: '📏';
+}
+
+.shipping:before {
+    content: '🚚';
+}
+
+.exchange:before {
+    content: '🔄';
+}

@@ -1,0 +1,60 @@
+.look-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 2rem;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.main-image {
+    border-radius: 10px; /* Rounded corners for main image */
+}
+
+.btn-custom {
+    background-color: white; /* Button background color */
+    color: black; /* Text color */
+    padding: 10px 20px; /* Adjust padding */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #070707; /* Hover color */
+    color: white; /* Text color on hover */
+}
+
+.price {
+    font-size: 1.5rem; /* Price font size */
+    color: #333; /* Darker color for price */
+    margin: 10px 0; /* Margin around price */
+}
+
+.small-image-container {
+    border: 1px solid #ddd; /* Light border around small image */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the container */
+}
+
+.thumbnail-container {
+    display: flex; /* Flex layout for thumbnails */
+    justify-content: space-around; /* Space thumbnails evenly */
+}
+
+.thumbnail {
+    width: 60px; /* Thumbnail width */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease; /* Smooth transition for hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.thumbnail:hover {
+    transform: scale(1.1); /* Scale up thumbnail on hover */
+}
+.product-details {
+    font-size: 1rem; /* Font size for the product details */
+    color: #555; /* Dark gray color */
+    margin-top: 10px; /* Space above the paragraph */
+    line-height: 1.5; /* Better line spacing */
+}
+

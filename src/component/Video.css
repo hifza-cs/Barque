@@ -1,0 +1,17 @@
+.video-section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: space-around; /* Space the videos evenly */
+    flex-wrap: wrap; /* Allow videos to wrap on smaller screens */
+  }
+  
+  .video-wrapper {
+    flex: 1; /* This will allow each video to take equal space */
+    max-width: 30%; /* Limit max width of each video */
+    margin: 10px; /* Add some space around each video */
+  }
+  
