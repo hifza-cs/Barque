@@ -4,7 +4,7 @@ import '../style/styles.css';
 import { Link } from 'react-router-dom';
 import Look from './Look';
 import Video from './Video';
-import News from './News'; // Import the News component
+import News from './News';
 
 const Home = () => {
     const carouselItem = [];
@@ -79,13 +79,12 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* Render the Look component here */}
+            {/* Render the Look component */}
             <Look />
             {/* Render the Video component */}
-            <Video /> 
-
-            {/* Add the News component */}
-            <News /> {/* Correctly render the News component */}
+            <Video />
+            {/* Render the News component */}
+            <News />
         </>
     );
 };
