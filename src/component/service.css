@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #f9f9f9;
+    margin-top: 80px; /* Light background for contrast */
 }
 
 .service-heading {

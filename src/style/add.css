@@ -1,115 +1,57 @@
 /* add.css */
-
 .add-container {
-    width: 80%;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  .add-title {
-    font-size: 2.5rem;
-    text-align: center;
-    margin: 40px 0 30px; /* Increased space below the title */
-    color: #4b2e83;
-    font-weight: bold; /* Bold title */
-    transition: color 0.3s ease;
-  }
-  
-  .add-title:hover {
-    color: #8362c7;
-  }
-  
-  /* Image Section Styling */
-  .image-section {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .image-box {
-    width: 30%;
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .image-box:hover {
-    transform: scale(1.05);
-  }
-  
-  .box-image {
-    width: 100%;
-    border-radius: 8px;
-    transition: transform 0.4s ease;
-  }
-  
-  .box-description {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 10px;
-  }
-  
-  .box-description h2 {
-    color: #4b2e83;
-    font-size: 1.4rem;
-    font-weight: bold; /* Bold headings in descriptions */
-    margin-bottom: 10px;
-    transition: color 0.3s ease;
-  }
-  
-  .box-description h2:hover {
-    color: #8362c7;
-  }
-  
-  .section-title {
-    font-size: 1.8rem;
-    color: #4b2e83;
-    font-weight: bold; /* Bold section titles */
-    margin-top: 30px;
-    transition: color 0.3s ease;
-  }
-  
-  .section-title:hover {
-    color: #8362c7;
-  }
-  
-  p {
-    margin: 15px 0;
-    font-weight: 500; /* Slightly bolder paragraph text */
-  }
-  
-  .benefits-list {
-    list-style: disc;
-    padding-left: 20px;
-  }
-  
-  .benefits-list li {
-    margin: 10px 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .add-container {
-      width: 90%;
-    }
-  
-    .add-title {
-      font-size: 2rem;
-    }
-  
-    .image-section {
-      flex-direction: column;
-    }
-  
-    .image-box {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
-    .section-title {
-      font-size: 1.5rem;
-    }
-  }
-  
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.add-title {
+  text-align: center; /* Center the title text */
+  margin: 60px 0; /* Add spacing above and below the title */
+  font-size: 2.5rem; /* Adjust font size as needed */
+  color: #333; /* Change text color if needed */
+}
+
+
+.image-section {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the image boxes */
+  flex-wrap: wrap; /* Allow wrapping of boxes */
+}
+
+.image-box {
+  margin: 15px; /* Margin between boxes */
+  border: 1px solid #ddd; /* Light border around each box */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensures no overflow */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  width: 300px; /* Fixed width for boxes */
+}
+
+.image-box:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.box-image {
+  width: 100%; /* Make image fill the box */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.box-description {
+  padding: 15px; /* Space inside the description */
+  text-align: center; /* Center the text in the box */
+}
+
+.section-title {
+  text-align: center; /* Center section titles */
+  margin: 20px 0; /* Space around section titles */
+  font-size: 2rem; /* Adjust font size */
+}
+
+/* List styling */
+.benefits-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Center the list */
+}
+.benefits-list li {
+  margin: 10px 0; /* Space between list items */
+}
