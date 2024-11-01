@@ -1,31 +1,59 @@
-.product-container .main-image-wrapper {
-  position: relative;
-  overflow: hidden;
+/* /* Product.css */
+
+.product-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
 }
 
-.main-product-image:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
+.section-title {
+  font-size: 1.8rem;
+  color: #333;
+  text-transform: uppercase;
 }
 
-.thumbnail {
-  width: 80px;
-  height: auto;
-  margin: 0 5px;
+.product-thumbnail {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
 }
 
-.thumbnail:hover {
-  opacity: 1;
+.product-thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-color: #ddd;
+}
+
+.selected-product-details {
+  text-align: center;
+  border-top: 2px solid #ddd;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.category {
+  font-size: 1.5rem;
+  color: #888;
+  transition: color 0.3s;
+  margin-bottom: 1rem;
+}
+
+.category:hover {
+  color: #333;
 }
 
 .btn-custom {
-  background-color: #333;
-  color: #fff;
+  background-color: #6c757d;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  border-radius: 20px;
 }
 
 .btn-custom:hover {
-  background-color: #555;
+  background-color: #5a6268;
 }
