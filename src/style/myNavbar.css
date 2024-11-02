@@ -1,4 +1,4 @@
-/* Make sure Navbar stays at the top */
+/* Ensure Navbar stays at the top */
 .navbar {
   position: fixed;
   width: 100%;
@@ -7,16 +7,13 @@
 
 /* Style for the toggle button (hamburger icon) */
 .navbar-toggler {
-  border-color: transparent;
+  border: none;
   position: absolute;
-  left: 10px;
+  right: 15px; /* Aligns the toggle to the right */
+  top: 10px;
 }
 
-/* Side panel style for mobile */
-.navbar-collapse {
-  background-color: #f8f9fa; /* Light background */
-}
-
+/* Side panel style for mobile view */
 @media (max-width: 992px) {
   .navbar-collapse {
     position: fixed;
@@ -24,7 +21,20 @@
     left: 0;
     width: 250px;
     height: 100vh;
-    overflow-y: auto;
+    background-color: #f8f9fa; /* Light background */
     padding-top: 1rem;
+    overflow-y: auto;
+    transition: transform 0.3s ease; /* Smooth slide effect */
+    transform: translateX(-100%);
+  }
+
+  .navbar-collapse.show {
+    transform: translateX(0); /* Slide the side panel in */
+  }
+
+  /* Adjust Navbar brand alignment */
+  .navbar-brand img {
+    width: 80px; /* Adjust size if needed */
+    margin-right: auto;
   }
 }
