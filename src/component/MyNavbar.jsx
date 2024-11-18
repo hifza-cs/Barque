@@ -26,7 +26,9 @@ const MyNavbar = () => {
             height="50" 
             className="me-3"
           />
-          <span className="styled-text">E-commerce Website</span>
+          <span className="styled-text">ONLINE CLOTH SHOP
+
+          </span>
         </Navbar.Brand>
         
         <Navbar.Toggle aria-controls="navbarScroll" />

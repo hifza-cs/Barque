@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="carousel-inner">
                     {/* First carousel item */}
                     <div className="carousel-item active">
-                        <img src="https://baroque.pk/cdn/shop/files/MAin_BAnner80.jpg?v=1730272964&width=1400" className="d-block w-100" alt="Welcome to Our Website" />
+                        <img src="https://baroque.pk/cdn/shop/files/MAin_BAnner56_d4a8f4af-47a7-4b29-bada-317f88ab8956.jpg?v=1731491936&width=1400" className="d-block w-100" alt="Welcome to Our Website" />
                         <div className="carousel-caption d-flex justify-content-center align-items-center">
                             <div className="text-center">
                                 <h1 className="mb-4">Welcome to Our Website</h1>
